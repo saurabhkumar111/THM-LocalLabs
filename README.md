@@ -56,8 +56,7 @@ bash
 Copy
 Edit
 find / -name "file.txt" 2>/dev/null
-📸 Screenshots
-Add screenshots of terminal outputs here or upload them to the screenshots/ folder and link them here.
+
 
 🧠 Lessons Learned
 Importance of file permissions in Linux
