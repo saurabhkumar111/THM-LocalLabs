@@ -1,4 +1,4 @@
-# 🔐 Linux Fundamentals – Week 2 (SSH & SCP)
+# 🔐 Linux Fundamentals – Part 2
 
 ## 🔧 Skills Covered
 - SSH login and key setup
