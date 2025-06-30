@@ -53,3 +53,54 @@ Understand the fundamentals of the Windows operating system, focusing on:
 echo Hello > normal.txt
 echo HiddenData > normal.txt:hidden.txt
 more < normal.txt:hidden.txt
+```
+
+---
+
+### 3. 🛡️ User Account Control (UAC)
+Navigated to:
+
+
+Control Panel > User Accounts > Change UAC settings
+Adjusted UAC level.
+
+Observed UAC prompts by running:
+
+cmd.exe as Administrator
+
+regedit.exe
+
+
+----
+
+### 4. ⚙️ Control Panel & System Settings
+Explored:
+
+Control Panel (via Run > control)
+
+Modern Settings (Win + I)
+
+Viewed:
+
+System Info
+
+User Accounts
+
+Installed Programs
+
+### 5. 🧠 Task Manager & System Configuration
+Opened Task Manager (Ctrl + Shift + Esc)
+
+Observed running processes, startup impact, users
+
+Ran msconfig
+
+Checked boot options and services
+
+Ran:
+
+Collected system-level details
+
+
+
+
