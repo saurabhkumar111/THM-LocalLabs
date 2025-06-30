@@ -1,0 +1,55 @@
+# 🪟 Windows Fundamentals 1 – TryHackMe (Local Lab)
+
+> **Path**: Cybersecurity 101  
+> **Room**: Windows Fundamentals 1  
+> **Platform**: TryHackMe  
+> **Lab Type**: Local (VirtualBox)  
+> **Machine Used**: Windows 10 VM  
+> **Status**: ✅ Completed
+
+---
+
+## 📌 Lab Objectives
+
+Understand the fundamentals of the Windows operating system, focusing on:
+
+- Graphical User Interface (GUI) components
+- NTFS file system and file streams
+- User Account Control (UAC)
+- The Control Panel and Settings
+- Task Manager and system configuration tools
+
+---
+
+## 🖥️ Environment Setup
+
+| Component   | Details                  |
+|------------|---------------------------|
+| VirtualBox | Installed on Host Machine |
+| OS         | Windows 10 (Clean Install)|
+| Tools      | Native Windows Tools Only |
+| Snapshot   | Taken after clean install |
+
+---
+
+## 🔍 Task-wise Breakdown & Commands
+
+### 1. 🧭 Exploring the Windows GUI
+- Navigated:
+  - Start Menu
+  - Taskbar
+  - File Explorer
+- Observed folder structure:
+  - `C:\Users\`
+  - `C:\Program Files\`
+
+---
+
+### 2. 📁 NTFS File System
+
+#### ✔️ Tested Alternate Data Streams (ADS):
+
+```cmd
+echo Hello > normal.txt
+echo HiddenData > normal.txt:hidden.txt
+more < normal.txt:hidden.txt
