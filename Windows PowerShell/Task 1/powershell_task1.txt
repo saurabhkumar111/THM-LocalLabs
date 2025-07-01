@@ -1,0 +1,219 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250701145900
+Username: DESKTOP-T8G12UV\saurabh
+RunAs User: DESKTOP-T8G12UV\saurabh
+Configuration Name: 
+Machine: DESKTOP-T8G12UV (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 4716
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\Saurabh\Desktop\powershell_task1.txt
+PS C:\Windows\system32> $PSVersionTable
+
+Name                           Value
+----                           -----
+PSVersion                      5.1.19041.1682
+PSEdition                      Desktop
+PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}
+BuildVersion                   10.0.19041.1682
+CLRVersion                     4.0.30319.42000
+WSManStackVersion              3.0
+PSRemotingProtocolVersion      2.3
+SerializationVersion           1.1.0.1
+
+
+PS C:\Windows\system32> Get-Process
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
+-------  ------    -----      -----     ------     --  -- -----------
+    197      24     5472      13208       0.02   2744   1 backgroundTaskHost
+    170       9     2188       9676       0.03   2764   1 backgroundTaskHost
+     71       5     2360       4224       0.02   4680   1 cmd
+    259      14    10904      18024       0.33   4260   1 conhost
+    264      13     4704      20108       6.59   6404   1 conhost
+    363      15     1672       2536       0.59    428   0 csrss
+    311      17     1700       2464       0.91    504   1 csrss
+    451      17     4256      17676       0.59   3148   1 ctfmon
+    351      17     3108       9744       0.08   2748   0 dasHost
+    201      16     3032      11088       0.16   2528   0 dllhost
+    243      26     5840      14596       0.14   3808   1 dllhost
+    227      16     3180      12236       0.16   4236   1 dllhost
+    145       9     1820      13776       0.02   6536   1 dllhost
+    947      40    32676      48224       1.75    900   1 dwm
+   2351      91    53116     167848       9.06   3348   1 explorer
+     36       5     1268       2472       0.06    688   0 fontdrvhost
+     36       6     1612       4440       0.06    752   1 fontdrvhost
+      0       0       60          8                 0   0 Idle
+   1190      25     6752      19964       4.95    596   0 lsass
+      0       0      472      54860      19.19   1412   0 Memory Compression
+    206      13     1948       3284       0.13   2964   0 MicrosoftEdgeUpdate
+    455      20    27636      17492       5.88   3924   0 MoUsoCoreWorker
+    115       8     3164       8088       0.38   2612   0 MpCopyAccelerator
+    490      17     8440      20536       1.44   3676   0 MpDefenderCoreService
+    781     218   289468     155548      47.48   6820   0 MsMpEng
+    196      39     3880       9540       0.11   4896   0 NisSrv
+    868      52    48544      19560       2.28   6876   1 OneDrive
+    998      66   113676     145608      33.58   4716   1 powershell
+      0       8    11808      26456       0.73     72   0 Registry
+    329      17     6204       9472       2.27   2960   1 RuntimeBroker
+    546      25    11352      26772       0.81   4296   1 RuntimeBroker
+    208      11     2472      15756       0.06   5680   1 RuntimeBroker
+    269      14     2944      15752       0.45   6116   1 RuntimeBroker
+   1407     121   149120      41540       7.36   4148   1 SearchApp
+    703      38    20332      25520       5.33   4316   0 SearchIndexer
+    414      17     4848      15604       1.22   5284   0 SecurityHealthService
+    162       9     1692       9296       0.16   4172   1 SecurityHealthSystray
+    367      11     3624       5592      18.72    588   0 services
+    105       7     3508       6640       0.11   3932   0 SgrmBroker
+    573      26    10744      19124       0.34   5500   1 ShellExperienceHost
+    554      18     5912      24264       0.97   2720   1 sihost
+    413      22     8096      24104       0.13   4116   1 smartscreen
+     53       4     1056        188       0.03    328   0 smss
+    425      20     5012      11244       0.22   1816   0 spoolsv
+    608      29    16900      45924       1.19   4024   1 StartMenuExperienceHost
+    760      20    17376      27212       2.42    312   0 svchost
+    706      28    41636      46144      28.20    360   0 svchost
+   1240      26    10184      34988       4.73    708   0 svchost
+    945      18     6404      14264       9.17    812   0 svchost
+    195      11     1916       8032       0.02    864   0 svchost
+   2259     119    96480     101008     748.89    996   0 svchost
+    485      21    13076      14276       1.31   1008   0 svchost
+    855      46    12012      33924       3.36   1064   0 svchost
+    839      37     8000      21240       1.50   1168   0 svchost
+    545      26    20268      28596       3.81   1336   0 svchost
+    348      13     3052      16172       0.28   1600   0 svchost
+    219      12     7216      20024       7.78   1664   0 svchost
+    131      10     1580       6324       0.09   1672   0 svchost
+    357      14     2168       8820       0.19   1680   0 svchost
+    230      12     2328      12248       0.03   1688   0 svchost
+    404      31    10140      13720       0.92   1844   0 svchost
+    339      21     3232      10304       0.09   1968   0 svchost
+    378      24     3288      13328       0.00   2204   0 svchost
+    547      31    53920      48336      50.92   2484   0 svchost
+    866      37    12036      54120       0.95   2772   1 svchost
+    243      12     3244      21380       0.13   3528   1 svchost
+    441      21     9368      14956      18.97   4736   0 svchost
+    216      12     2496       7352       0.09   5212   0 svchost
+    477      18     6564      24060       1.52   5712   0 svchost
+   2167       0      196        140      83.19      4   0 System
+    198      14     2012       9072       0.06   3004   1 taskhostw
+    545      22     8888      25316       0.20   4888   1 TextInputHost
+    114       7     1280       4416       0.02   7152   0 uhssvc
+    167      11     2488       6160       0.88   1304   0 VBoxService
+    253      12     2576      10300       0.33   5352   1 VBoxTray
+    164      11     1336       1496       0.06    496   0 wininit
+    267      12     2428       5028       0.08    564   1 winlogon
+     62       5      780       3472       0.00   2120   0 wlms
+    289      15    21420      25468       2.88   3292   0 WmiPrvSE
+
+
+PS C:\Windows\system32> Get-Date
+
+01 July 2025 14:59:41
+
+
+PS C:\Windows\system32> Get -Command -Noun Process
+Get : The term 'Get' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Get -Command -Noun Process
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (Get:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Get : The term 'Get' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct
+and try again.
+At line:1 char:1
++ Get -Command -Noun Process
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (Get:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Windows\system32> Get-Command -Noun Process
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Debug-Process                                      3.1.0.0    Microsoft.PowerShell.M...
+Cmdlet          Get-Process                                        3.1.0.0    Microsoft.PowerShell.M...
+Cmdlet          Start-Process                                      3.1.0.0    Microsoft.PowerShell.M...
+Cmdlet          Stop-Process                                       3.1.0.0    Microsoft.PowerShell.M...
+Cmdlet          Wait-Process                                       3.1.0.0    Microsoft.PowerShell.M...
+
+
+PS C:\Windows\system32> Get-Help Get-Process
+
+NAME
+    Get-Process
+
+SYNOPSIS
+    Gets the processes that are running on the local computer or a remote computer.
+
+
+SYNTAX
+    Get-Process [[-Name] <System.String[]>] [-ComputerName <System.String[]>] [-FileVersionInfo]
+    [-Module] [<CommonParameters>]
+
+    Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo] -Id <System.Int32[]> [-Module]
+    [<CommonParameters>]
+
+    Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo] -InputObject
+    <System.Diagnostics.Process[]> [-Module] [<CommonParameters>]
+
+    Get-Process -Id <System.Int32[]> -IncludeUserName [<CommonParameters>]
+
+    Get-Process [[-Name] <System.String[]>] -IncludeUserName [<CommonParameters>]
+
+    Get-Process -IncludeUserName -InputObject <System.Diagnostics.Process[]> [<CommonParameters>]
+
+
+DESCRIPTION
+    The `Get-Process` cmdlet gets the processes on a local or remote computer.
+
+    Without parameters, this cmdlet gets all processes on the local computer. You can also specify a
+    specific process by process name or process ID (PID), or by piping a System.Diagnostics.Process
+    object to this cmdlet.
+
+    By default, this cmdlet returns a Process object that has detailed information about the process
+    and supports methods that let you control it. With parameters, you can change the type of
+    information returned by this cmdlet.
+
+    - Module : Retrieve information for each module loaded into the process. - FileVersionInfo :
+    Retrieve file version information for the main module of the process.
+
+    > [!NOTE] > A module is an executable file or a dynamic link library (DLL) loaded into a process.
+    A process > has one or more modules. The main module is the module used to initially start the
+    process. For > more information, see ProcessModule Class
+    (/dotnet/api/system.diagnostics.processmodule).
+
+
+RELATED LINKS
+    Online Version: https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-p
+    rocess?view=powershell-5.1&WT.mc_id=ps-gethelp
+    Debug-Process
+    Get-Process
+    Start-Process
+    Stop-Process
+    Wait-Process
+    Where-Object
+
+REMARKS
+    To see the examples, type: "get-help Get-Process -examples".
+    For more information, type: "get-help Get-Process -detailed".
+    For technical information, type: "get-help Get-Process -full".
+    For online help, type: "get-help Get-Process -online"
+
+
+PS C:\Windows\system32> stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250701150106
+**********************
